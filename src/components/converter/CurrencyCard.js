@@ -28,8 +28,8 @@ export const currencyFlagMap = {
 
 function CurrencyCard({ title, isFirstCard }) {
   const [amount, setAmount] = useState(0);
-  const [convertedValues, setConvertedValues] = useState({});
   const [selectedCurrency, setSelectedCurrency] = useState(isFirstCard ? 'AUD' : 'USD');
+  const [convertedValues, setConvertedValues] = useState({});
   const [transformed, setTransformed] = useState(false);
   const [showSpinner, setShowSpinner] = useState(false);
 
