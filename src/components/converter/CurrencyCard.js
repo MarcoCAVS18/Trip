@@ -65,7 +65,7 @@ function CurrencyCard({ title, isFirstCard }) {
         setShowSpinner(false);
       }
     }
-  }; 
+  };
 
   useEffect(() => {
     setAmount(0);
